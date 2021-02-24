@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgb(116, 116, 116);
+}
+
+h2  {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(20, 176, 187);
+}
+
+/*--------------------------------------Navbar*/
+
+
+#navbar {
+    background-color: #444;
+}
+#nav-link {
+    color: rgb(20, 176, 187);
+}   
+
+#navbarNav {
+    color: rgb(20, 176, 187);
+}
+
+#navbarNav a {
+    color: rgb(20, 176, 187);
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: rgb(20, 176, 187);
+}
+
+.custom-toggler .navbar-toggler:hover {
+    opacity: 0.7;
+}
+
+#navbar {
+    min-height: 70px;
+}
+
+#navbar .navbar-brand {
+     font-size: 200%;
+     margin-left: 0px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     color: rgb(20, 176, 187);
+}
+
+/*--------------------------------------End of Navbar*/
+
+/*--------------------------------------Hero Image*/
+
+#hero {
+  height: 600px;
+  width: 100vw;
+  background-image: url("../images/aurora-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+#cover-text, cover-text h2 {
+    color: #333
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 10px;
+    width: 250px;
+    height: 220px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.863);
+    bottom: 30px;
+    right: 100px;
+    position: absolute;
+}
+
+#cover-text h2 {
+    text-decoration: bold;
+}
+
+/*--------------------------------------End of Hero Image*/
+
+/*--------------------------------------Drinks*/
+
+#drinks-menu  div {
+  color: rgb(20, 176, 187);
+  background-color: rgba(0, 0, 0, .6);
+  width: 19%;
+  height: 60px;
+  float: left;
+  padding: 4px 0 0 15px;
+  text-align: center;
+  margin: 2px;
+}
+
+h1 {
+    color: rgb(20, 176, 187);
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#drinks {
+  background-image: url("../images/bar-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+#drinks div {
+  color: rgb(20, 176, 187);
+  background-color: rgba(0, 0, 0, .6);
+  width: 19%;
+  height: 350px;
+  float: left;
+  padding: 4px 0 0 10px;
+  text-align: center;
+  margin: 2px;
+}
+
+#drinks h2 {
+  color: rgb(20, 176, 187);
+}
+
+#drinks div {
+  width: 100%;
+  clear: both;
+  height: 350px;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #444;
+  padding: 0;
+}
+/*--------------------------------------End of drinks*/
+
+/*--------------------------------------Times*/
+#hours div {
+  color: rgb(20, 176, 187);
+  background-color: rgba(0, 0, 0, .6);
+  width: 19%;
+  height: 30px;
+  float: left;
+  padding: 4px 0 0 10px;
+  text-align: center;
+  margin: 2px;
+}
+
+#times {
+  background-image: url("../images/nightclub.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+#times div {
+  color: rgb(20, 176, 187);
+  background-color: rgba(0, 0, 0, .6);
+  width: 19%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  margin: 2px;
+}
+
+#times h2 {
+  color: rgb(20, 176, 187);
+}
+
+#times div {
+  width: 100%;
+  clear: both;
+  height: 150px;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #444;
+  padding: 0;
+}
+
+/*--------------------------------------End of Times*/
+
+/*--------------------------------------Gallery Images*/
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    padding: 0 1.5rem;
+    margin-bottom: 10rem;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+    grid-template-areas: 
+                    'img-1 img-2 img-3 img-3'
+                    'img-1 img-4 img-5 img-6'
+                    'img-7 img-7 img-8 img-6';
+}
+
+.image-gallery a {
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.image-gallery a i {
+    color: rgba(255, 255, 255, .6);
+    font-size: 3rem;
+    position: relative;
+    z-index: 100;
+    padding: 1rem 3rem;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: .4rem;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.image-gallery a:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.image-gallery a:hover i,
+.image-gallery a:hover::before {
+    opacity: 1;
+}
+
+.img-1 {
+    grid-area: img-1;
+    min-height: 51.5rem;
+    background-image: url("../images/gallery-img-1.jpg");
+}
+
+.img-2 {
+    grid-area: img-2;
+    background-image: url("../images/gallery-img-2.jpg");
+}
+
+.img-3 {
+    grid-area: img-3;
+    background-image: url("../images/gallery-img-3.jpg");
+}
+
+.img-4 {
+    grid-area: img-4;
+    background-image: url("../images/gallery-img-4.jpeg");
+}
+
+.img-5 {
+    grid-area: img-5;
+    background-image: url("../images/gallery-img-5.jpg");
+}
+
+.img-6 {
+    grid-area: img-6;
+    min-height: 51.5rem;
+    background-image: url("../images/gallery-img-6.jpg");
+}
+
+.img-7 {
+    grid-area: img-7;
+    background-image: url("../images/gallery-img-7.jpg");
+}
+
+.img-8 {
+    grid-area: img-8;
+    background-image: url("../images/gallery-img-8.jpg");
+}
+
+.img-9 {
+    grid-area: img-9;
+    background-image: url("../images/gallery-img-9.jpg");
+}
+
+/*--------------------------------------End of Gallery Images*/
+
+/*--------------------------------------Footer*/
+
+footer {
+	background-color: #444;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+footer > span {
+    color: rgb(20, 176, 187);
+}
+
+footer > a {
+	color: rgb(20, 176, 187);
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 1.2rem;
+}
+
+footer > a:hover {
+    color: rgb(20, 176, 187);
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 1.2rem;
+}
+
+footer > p {
+	color: rgb(20, 176, 187);
+}
+
+/*--------------------------------------End of Footer*/
+
+/*--------------------------------------Media Query*/
+
+@media screen and (min-width: 1400px) {
+    #cover-text, cover-text h2 {
+        color: #333
+    }
+
+    #cover-text {
+        font-size: 100%;
+        font-family: 'Fira Sans', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 10px;
+        width: 250px;
+        height: 220px;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: rgba(255, 255, 255, 0.863);
+        bottom: 30px;
+        right: 200px;
+        position: absolute;
+    }
+
+    #cover-text h2 {
+        text-decoration: bold;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .image-gallery {
+        grid-template-areas: 
+                    'img-1 img-1 img-2 img-2'
+                    'img-1 img-1 img-3 img-3'
+                    'img-4 img-4 img-5 img-5'
+                    'img-6 img-7 img-7 img-7'
+                    'img-8 img-8 img-8 img-8';
+    }
+    .image-gallery a {
+        height: 20rem;
+    }
+    .img-1 {
+        min-height: 41.5rem;
+    }
+    .img-6 {
+        min-height: 20rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .image-gallery {
+        grid-template-areas: 
+                    'img-1 img-1 img-1 img-1'
+                    'img-2 img-2 img-2 img-2'
+                    'img-3 img-3 img-3 img-3'
+                    'img-4 img-4 img-4 img-4'
+                    'img-5 img-5 img-5 img-5'
+                    'img-6 img-6 img-6 img-6'
+                    'img-7 img-7 img-7 img-7'
+                    'img-8 img-8 img-8 img-8';
+    }
+    .image-gallery a, .img-1, .img-6 {
+        height: 20rem;
+        min-height: 30rem;
+    }
+    footer {
+	    background-color: #444;
+	    padding: 1em;
+	    text-align: center;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        right: 0;
+    	z-index: 3;
+    }
+
+    footer > span {
+        color: rgb(20, 176, 187);
+    }
+
+    footer > a {
+    	color: rgb(20, 176, 187);
+    	text-decoration: none;
+	    padding: 0 15px;
+    	font-size: 1.2rem;
+    }
+
+    footer > a:hover {
+        color: rgb(20, 176, 187);
+    	text-decoration: none;
+	    padding: 0 15px;
+    	font-size: 1.2rem;
+    }
+
+    footer > p {
+	    color: rgb(20, 176, 187);
+    }
+    #times {
+        background-image: url("../images/nightclub.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+
+    #drinks {
+        background-image: url("../images/bar-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+
+    #cover-text, cover-text h2 {
+        color: #333
+    }
+
+    #cover-text {
+        font-size: 100%;
+        font-family: 'Fira Sans', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 10px;
+        width: 250px;
+        height: 220px;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: rgba(255, 255, 255, 0.863);
+        bottom: 30px;
+        right: 15px;
+        position: absolute;
+    }
+
+    #cover-text h2 {
+        text-decoration: bold;
+    }
+}
+/*--------------------------------------End of Media Query*/
