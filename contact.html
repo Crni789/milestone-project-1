@@ -35,32 +35,71 @@
         </nav>
     </header>
 <!-------------------------------------------------End of Navbar-->
-    <section class="form-section">
-    <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-        <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
-        <label for="fname">First Name</label><br>
-        <input class="text-input" type="text" id="fname" name="first_name" required><br>
-        <label for="lname">Last Name</label><br>
-        <input class="text-input" type="text" id="lname" name="last_name" required><br>
-        <label for="email">Email Address</label><br>
-        <input class="text-input" type="email" id="email" name="email_address" required>
-        <label for="road">Road</label>
-        <input type="radio" id="road" name="running_preference" value="road" required>
-        <label for="trail">Trail</label>
-        <input type="radio" id="trail" name="running_preference" value="trail">
-        <label for="both">Both</label><br>
-        <input type="radio" id="both" name="running_preference" value="both">
-        <input class="join-button" type="submit" value="Let's Run!">
+    <form class="contact" method="POST" action="https://formdump.codeinstitute.net/">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-lg-12">
+                                <div class="head text-center text-white py-3">
+                                    <h3>Contact Us</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form p-3">
+                            <div class="form-row my-5">
+                                <div class="col-lg-6">
+                                    <input type="text" class="effect-1" name="fname" placeholder="First Name" required>
+                                    <span class="Focus-border"></span>
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" class="effect-1" name="lname" placeholder="Last Name" required>
+                                    <span class="Focus-border"></span>
+                                </div>
+                            </div>
+                            <div class="form-row pb-4">
+                                <div class="col-lg-12">
+                                    <input type="text" class="effect-1" name="email" placeholder="Email Address" required>
+                                    <span class="Focus-border"></span>
+                                </div>
+                            </div>
+                            <div class="form-row pb-4">
+                                <div class="col-lg-12">
+                                    <input type="text" class="effect-1" placeholder="Contact" required>
+                                    <span class="Focus-border"></span>
+                                </div>
+                            </div>
+                            <div class="form-row pt-5">
+                                <div class="col-lg-12">
+                                    <input type="text" class="effect-1" placeholder="Your Message">
+                                    <span class="Focus-border"></span>
+                                </div>
+                            </div>
+                            <div class="form-row pt-4">
+                                <div class="col-lg-6" required>
+                                    <p><input type="checkbox" required>  I Am Not Robot</p>
+                                </div>
+                                <div class="offset-2 col-lg-4">
+                                    <button class="btn"><bold>SEND MESSAGE</bold></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </form>
-   </section>
     
 <!-------------------------------------------------Footer-->
     <footer>
 		<span>Find us on:</span>
-		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
-		<a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
-		<p>Copyright © Denis Kahrimanovic 2021 Educational Use Only</p>
+		<a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i> </a>
+		<a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> </a>
+        <br>
+        <p>Copyright © Denis Kahrimanovic</p>
+        <p>2021 Educational Use Only</p>
     </footer>
 <!-------------------------------------------------End of Footer-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
