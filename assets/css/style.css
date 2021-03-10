@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 
 * {
     padding: 0;
@@ -10,7 +10,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: bold;
     background: linear-gradient(-45deg, rgb(20, 176, 187), rgb(214, 217, 218), #333);
     background-size: 150% 150%;
@@ -20,15 +20,14 @@ body {
     height: 100%;
 }
 
-h2  {
-    font-family: 'Fira Sans', sans-serif;
+h2 {
+    font-family: "Fira Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: rgb(20, 176, 187);
 }
 
 /*--------------------------------------Navbar*/
-
 
 #navbar {
     background-color: #333;
@@ -37,7 +36,7 @@ h2  {
 }
 #nav-link {
     color: rgb(20, 176, 187);
-}   
+}
 
 #navbarNav {
     color: rgb(20, 176, 187);
@@ -48,7 +47,7 @@ h2  {
     margin-right: 10px;
 }
 
-.custom-toggler.navbar-toggler { 
+.custom-toggler.navbar-toggler {
     border-color: rgb(20, 176, 187);
     margin-right: 10px;
 }
@@ -62,12 +61,12 @@ h2  {
 }
 
 #navbar .navbar-brand {
-     font-size: 200%;
-     padding-left: 10px;
-     margin-left: 10px;
-     padding-top: 5px;
-     padding-bottom: 5px;
-     color: rgb(20, 176, 187);
+    font-size: 200%;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(20, 176, 187);
 }
 
 #navbarNav a:hover {
@@ -96,16 +95,16 @@ h2  {
 .banner-content {
     text-align: center;
     color: rgb(214, 217, 218);
-    padding-top: 300px;
+    padding-top: 80px;
 }
 
 .banner-content h2 {
-    font-size: 100px;
+    font-size: 120px;
     color: rgb(207, 19, 19);
 }
 
 .banner-content h3 {
-    padding-top: 30px;
+    padding-top: 180px;
     font-size: 40px;
 }
 /*--------------------------------------End of Hero Image*/
@@ -118,7 +117,7 @@ h2  {
     text-align: center;
 }
 
-.location-text h2{
+.location-text h2 {
     text-transform: capitalize;
     color: rgb(207, 19, 19);
     font-size: 300%;
@@ -304,10 +303,10 @@ h2  {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 1.5rem;
-    grid-template-areas: 
-                    'img-1 img-2 img-3 img-3'
-                    'img-1 img-4 img-5 img-6'
-                    'img-7 img-7 img-8 img-6';
+    grid-template-areas:
+        "img-1 img-2 img-3 img-3"
+        "img-1 img-4 img-5 img-6"
+        "img-7 img-7 img-8 img-6";
 }
 
 .image-gallery a {
@@ -327,24 +326,24 @@ h2  {
 }
 
 @keyframes image-zoom {
-  from {
-    transform: scale(0.8);
-  }
-  to {
-    transform: scale(1);
-  }
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 @keyframes background-colors {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 .img-1 {
@@ -413,12 +412,17 @@ h2  {
     margin-top: 6rem;
 }
 
+#contact-us {
+    color: aliceblue;
+    font-size: 50px;
+}
+
 .head {
     background-color: rgb(20, 176, 187);
     border-radius: 5px;
     margin-top: -40px;
-    -webkit-box-shadow: 5px 4px 5px 6px rgba(0,0,0,0.58); 
-    box-shadow: 5px 4px 5px 6px rgba(0,0,0,0.58); 
+    -webkit-box-shadow: 5px 4px 5px 6px rgba(0, 0, 0, 0.58);
+    box-shadow: 5px 4px 5px 6px rgba(0, 0, 0, 0.58);
 }
 
 .effect-1 {
@@ -447,23 +451,24 @@ h2  {
 .btn {
     background: rgb(20, 176, 187);
     color: white;
+    font-size: 20px;
     outline: none;
     border: none;
     border-radius: 5px;
     height: 40px;
-    width: 145px;
+    width: 180px;
 }
 
 .btn:hover {
-    -webkit-box-shadow: 8px 5px 15px 9px rgba(0,0,0,0.58); 
-    box-shadow: 8px 5px 15px 9px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 8px 5px 15px 9px rgba(0, 0, 0, 0.58);
+    box-shadow: 8px 5px 15px 9px rgba(0, 0, 0, 0.58);
 }
 
 /*--------------------------------------End of Contact Us*/
 
 /*--------------------------------------Footer*/
 
- footer {
+footer {
     background-color: #333;
     text-align: center;
     font-size: 150%;
@@ -479,7 +484,7 @@ footer > span {
 }
 
 footer > a {
-	color: rgb(20, 176, 187);
+    color: rgb(20, 176, 187);
     text-decoration: none;
     padding-left: 15px;
     font-size: 1.2rem;
@@ -487,12 +492,12 @@ footer > a {
 
 footer > a:hover {
     color: rgb(214, 217, 218);
-	text-decoration: none;
+    text-decoration: none;
     font-size: 1.2rem;
 }
 
 footer > p {
-	color: rgb(20, 176, 187);
+    color: rgb(20, 176, 187);
 }
 
 /*--------------------------------------End of Footer*/
@@ -501,21 +506,20 @@ footer > p {
 
 @media screen and (max-width: 1440px) {
     footer {
-    background-color: #333;
-    background-position: bottom;
-	text-align: center;
-    width: 100%;
-    bottom: 0;
-    max-height: 240px
+        background-color: #333;
+        background-position: bottom;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        max-height: 240px;
     }
 }
 
 @media screen and (max-width: 1024px) {
-
-     .beers-list-img img {
-    width: 100%;
-    height: 250px;
-    border-radius: 20px;
+    .beers-list-img img {
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
     }
 
     .cocktails-list-img img {
@@ -532,21 +536,20 @@ footer > p {
 }
 
 @media screen and (max-width: 900px) {
-    
     #navbar .navbar-brand {
         font-size: 150%;
     }
-    
+
     .container {
-    margin: 0;
-    margin-top: 70px;
+        margin: 0;
+        margin-top: 70px;
     }
 
     .banner-content h2 {
-    font-size: 400%;
-    font-weight: 500;
-    letter-spacing: 3px;
-    font-family: 'Fira Sans', sans-serif;
+        font-size: 400%;
+        font-weight: 500;
+        letter-spacing: 3px;
+        font-family: "Fira Sans", sans-serif;
     }
 
     .banner-content h3 {
@@ -555,7 +558,7 @@ footer > p {
     }
 
     .cocktails {
-    flex-basis: 100%;
+        flex-basis: 100%;
     }
 
     .cocktails h2 {
@@ -565,7 +568,7 @@ footer > p {
 
     .cocktails ul li {
         text-align: center;
-    } 
+    }
 
     .cocktails-list-img {
         flex-basis: 100%;
@@ -588,20 +591,20 @@ footer > p {
 
     .beers ul li {
         text-align: center;
-    } 
+    }
 
     .beers-list-img {
-    flex-basis: 100%;
+        flex-basis: 100%;
     }
 
     .beers-list-img img {
-    width: 100%;
-    height: 250px;
-    border-radius: 20px;
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
     }
 
     .soft-drinks {
-    flex-basis: 100%;
+        flex-basis: 100%;
     }
 
     .soft-drinks h2 {
@@ -611,7 +614,7 @@ footer > p {
 
     .soft-drinks ul li {
         text-align: center;
-    } 
+    }
 
     .soft-drinks-list-img {
         flex-basis: 100%;
@@ -627,18 +630,18 @@ footer > p {
         margin-top: 35vh;
     }
 
-    .custom-toggler.navbar-toggler { 
-    border-color: rgb(20, 176, 187);
-    margin-right: 10px;
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(20, 176, 187);
+        margin-right: 10px;
     }
 
     .image-gallery {
-        grid-template-areas: 
-                    'img-1 img-1 img-2 img-2'
-                    'img-1 img-1 img-3 img-3'
-                    'img-4 img-4 img-5 img-5'
-                    'img-6 img-7 img-7 img-7'
-                    'img-8 img-8 img-8 img-8';
+        grid-template-areas:
+            "img-1 img-1 img-2 img-2"
+            "img-1 img-1 img-3 img-3"
+            "img-4 img-4 img-5 img-5"
+            "img-6 img-7 img-7 img-7"
+            "img-8 img-8 img-8 img-8";
     }
 
     .image-gallery a {
@@ -654,23 +657,23 @@ footer > p {
     }
 
     .contact {
-    background: linear-gradient(-45deg, rgb(20, 176, 187), rgb(214, 217, 218), rgb(214, 217, 218), #333);
-    background-size: 400% 400%;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    animation: background-colors 5s ease-in-out infinite;
-    margin-top: 4rem;
-    margin-bottom: 6.5rem;
+        background: linear-gradient(-45deg, rgb(20, 176, 187), rgb(214, 217, 218), rgb(214, 217, 218), #333);
+        background-size: 400% 400%;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        animation: background-colors 5s ease-in-out infinite;
+        margin-top: 4rem;
+        margin-bottom: 6.5rem;
     }
 
     footer {
-	background-color: #333;
-	text-align: center;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    max-height: 240px
+        background-color: #333;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        max-height: 240px;
     }
 
     footer > span {
@@ -678,148 +681,156 @@ footer > p {
     }
 
     footer > a {
-    	color: rgb(20, 176, 187);
-        text-decoration: none;
-	    padding: 0 15px;
-    	font-size: 1.2rem;
-    }
-
-    footer > a:hover {
         color: rgb(20, 176, 187);
-    	text-decoration: none;
-	    padding: 0 15px;
-    	font-size: 1.2rem;
-    }
-
-    footer > p {
-	    color: rgb(20, 176, 187);
-    }
-}
-
-@media screen and (max-width: 600px) {
-    
-    #navbar .navbar-brand {
-        font-size: 120%;
-    }
-
-    .container {
-    margin: 0;
-    margin-top: 70px;
-    }
-
-    .opening {
-    text-align: center;
-    text-transform: uppercase;
-    color: #333;
-    font-weight: bold;
-    font-size: 200%;
-    margin-top: 50vh;
-    padding: 0;
-    }
-
-    .cocktails {
-    flex-basis: 100%;
-    }
-
-    .cocktails-list-img {
-    flex-basis: 100%;
-    }
-
-    .cocktails-list-img img {
-    width: 100%;
-    border-radius: 20px;
-    }
-
-    .beers {
-    flex-basis: 100%;
-    }
-
-    .beers-list-img {
-    flex-basis: 100%;
-    }
-
-    .beers-list-img img {
-    width: 100%;
-    border-radius: 20px;
-    }
-
-    .soft-drinks {
-    flex-basis: 100%;
-    }
-
-    .soft-drinks-list-img {
-    flex-basis: 100%;
-    }
-
-    .soft-drinks-list-img img {
-    width: 100%;
-    border-radius: 20px;
-    }
-
-    .custom-toggler.navbar-toggler { 
-    border-color: rgb(20, 176, 187);
-    margin-right: 10px;
-    }
-
-    .image-gallery {
-        grid-template-areas: 
-                    'img-1 img-1 img-1 img-1'
-                    'img-2 img-2 img-2 img-2'
-                    'img-3 img-3 img-3 img-3'
-                    'img-4 img-4 img-4 img-4'
-                    'img-5 img-5 img-5 img-5'
-                    'img-6 img-6 img-6 img-6'
-                    'img-7 img-7 img-7 img-7'
-                    'img-8 img-8 img-8 img-8';
-    }
-    .image-gallery a, .img-1, .img-6 {
-        height: 20rem;
-        min-height: 30rem;
-    }
-
-    .contact {
-    background: linear-gradient(-45deg, rgb(20, 176, 187), rgb(214, 217, 218), rgb(214, 217, 218), #333);
-    background-size: 400% 400%;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    animation: background-colors 5s ease-in-out infinite;
-    margin-top: 4rem;
-    margin-bottom: 6.5rem;
-    }
-
-    footer {
-	background-color: #333;
-	text-align: center;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    max-height: 240px;
-    }
-
-    footer > a {
-    	color: rgb(20, 176, 187);
-    	text-decoration: none;
-	    padding: 0 15px;
+        text-decoration: none;
+        padding: 0 15px;
         font-size: 1.2rem;
     }
 
     footer > a:hover {
         color: rgb(20, 176, 187);
-    	text-decoration: none;
-	    padding: 0 15px;
-    	font-size: 1.2rem;
+        text-decoration: none;
+        padding: 0 15px;
+        font-size: 1.2rem;
     }
 
     footer > p {
-	    color: rgb(20, 176, 187);
+        color: rgb(20, 176, 187);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #navbar .navbar-brand {
+        font-size: 120%;
+    }
+
+    .container {
+        margin: 0;
+        margin-top: 70px;
+    }
+
+    .opening {
+        text-align: center;
+        text-transform: uppercase;
+        color: #333;
+        font-weight: bold;
+        font-size: 200%;
+        margin-top: 50vh;
+        padding: 0;
+    }
+
+    .cocktails {
+        flex-basis: 100%;
+    }
+
+    .cocktails-list-img {
+        flex-basis: 100%;
+    }
+
+    .cocktails-list-img img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .beers {
+        flex-basis: 100%;
+    }
+
+    .beers-list-img {
+        flex-basis: 100%;
+    }
+
+    .beers-list-img img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .soft-drinks {
+        flex-basis: 100%;
+    }
+
+    .soft-drinks-list-img {
+        flex-basis: 100%;
+    }
+
+    .soft-drinks-list-img img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(20, 176, 187);
+        margin-right: 10px;
+    }
+
+    .image-gallery {
+        grid-template-areas:
+            "img-1 img-1 img-1 img-1"
+            "img-2 img-2 img-2 img-2"
+            "img-3 img-3 img-3 img-3"
+            "img-4 img-4 img-4 img-4"
+            "img-5 img-5 img-5 img-5"
+            "img-6 img-6 img-6 img-6"
+            "img-7 img-7 img-7 img-7"
+            "img-8 img-8 img-8 img-8";
+    }
+    .image-gallery a,
+    .img-1,
+    .img-6 {
+        height: 20rem;
+        min-height: 30rem;
+    }
+
+    .contact {
+        background: linear-gradient(-45deg, rgb(20, 176, 187), rgb(214, 217, 218), rgb(214, 217, 218), #333);
+        background-size: 400% 400%;
+        width: 100%;
+        height: 100vh;
+        animation: background-colors 5s ease-in-out infinite;
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+    }
+
+    #contact-us {
+        color: aliceblue;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    footer {
+        background-color: #333;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        max-height: 240px;
+    }
+
+    footer > a {
+        color: rgb(20, 176, 187);
+        text-decoration: none;
+        padding: 0 15px;
+        font-size: 1.2rem;
+    }
+
+    footer > a:hover {
+        color: rgb(20, 176, 187);
+        text-decoration: none;
+        padding: 0 15px;
+        font-size: 1.2rem;
+    }
+
+    footer > p {
+        color: rgb(20, 176, 187);
     }
 
     .banner-content h2 {
-    font-size: 300%;
-    font-weight: 300;
-    letter-spacing: 3px;
-    font-family: 'Fira Sans', sans-serif;
+        font-size: 300%;
+        font-weight: 300;
+        letter-spacing: 3px;
+        font-family: "Fira Sans", sans-serif;
     }
 
     .banner-content h3 {
