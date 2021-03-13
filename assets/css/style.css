@@ -858,15 +858,16 @@ footer > p {
     }
 }
 
-
 @media screen and (max-width: 330px) {
     .drinks {
         margin-top: 200px;
     }
     #contact-form {
-        padding-bottom: 6rem;
+        padding-bottom: 8rem;
     }
 }
+
+
 
 
 /*--------------------------------------End of Media Query*/
