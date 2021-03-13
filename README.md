@@ -4,6 +4,8 @@
 
 ## Overview
 
+![responsive-img](https://user-images.githubusercontent.com/76183736/110396048-312dbd00-8067-11eb-8cf2-7f880d3e0529.PNG)
+
 Theme of the project was selected by me to avoid being similar with other students.
 A responsive website for a Late Night Venue based in Westport, Co. Mayo, Ireland.
 Please note that this venue doesn't exist, it was made up for project with Code Institute.
@@ -35,9 +37,6 @@ The ideal client for this business is:
 
 ![color-img](https://user-images.githubusercontent.com/76183736/110395859-d72cf780-8066-11eb-8b42-ecbc8af69605.PNG)
 
-## Responsive Design
-
-![responsive-img](https://user-images.githubusercontent.com/76183736/110396048-312dbd00-8067-11eb-8cf2-7f880d3e0529.PNG)
 
 
 ##### Wireframe mockups: 
@@ -95,7 +94,24 @@ For this project I used the following technologies:
 - [Balsamic](https://balsamiq.com/)
          The Readme uses Balsamic for the wireframes.
 
+## Deployment
 
+## [Github pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+1. Go to Github 
+2. Click on "Settings"
+3. Scroll until section "GitHub Pages"
+4. Select on the "source" dropdown menu the "master branch" option
+5. A success message (in green) appears and it shows you the link for your live preview page in Github Pages.
+
+## [Local deployment](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+1. Go to repository repository named "milestone-project-1"
+2. Click on the button "code"
+3. Select the "HTTPS" option.
+4. Copy the URL presented
+5. Open your Terminal
+6. Create a directory for storing this repository
+7. Type "git clone" and paste the URL in that you previously copied
+8. Press enter to create local clone repository
 
 ## Testing 
 
@@ -103,6 +119,10 @@ For this project I used the following technologies:
 - For formating the code I used [webformatter.com](https://webformatter.com/html).
 - For the validation of the CSS code I used [w3.org](https://www.w3.org/).
 
+- For the "home" page I checked across all platforms that text has been correct format and that all the images are not streched.
+- In the "gallery" page all the images have been tested across all the platforms for correct positioning and streching.
+- Contact form in "contact" page has been tested and is showing invalid inputs when necessary.
+ 
 ### Media
 - All the photos used in this site were obtained from the [Pexel](https://www.pexels.com/).
 
@@ -122,3 +142,4 @@ All code has been heavily modified.
 #### Disclaimer
 
 The content of this Website is for educational purposes only.
+
