@@ -91,20 +91,26 @@ h2 {
     margin: 0;
     padding: 0;
 }
-/*------------------------------------------------------------------------------to be chacked*/
+
 .banner-content {
     text-align: center;
     color: rgb(214, 217, 218);
-    padding-top: 80px;
+    padding-top: 120px;
+    background: rgba(0, 0, 0, 0.58);
+    background: cover;
 }
 
 .banner-content h2 {
+    font-family: "Fira Sans", sans-serif;
     font-size: 120px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
     color: rgb(207, 19, 19);
 }
 
 .banner-content h3 {
-    padding-top: 180px;
+    padding-top: 60px;
     font-size: 40px;
 }
 /*--------------------------------------End of Hero Image*/
@@ -112,7 +118,7 @@ h2 {
 /*-------------------------------------------------Location*/
 
 #location {
-    margin: 0;
+    margin-top: 40px;
     padding: 0;
     text-align: center;
 }
@@ -120,7 +126,14 @@ h2 {
 .location-text h2 {
     text-transform: capitalize;
     color: rgb(207, 19, 19);
-    font-size: 300%;
+    font-size: 250%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.location-text h3 {
+    text-transform: capitalize;
+    font-size: 200%;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -261,6 +274,8 @@ h2 {
 
 /*--------------------------------------Times*/
 
+
+
 .opening {
     background-color: rgba(214, 217, 218, 0.9);
     text-align: center;
@@ -272,11 +287,17 @@ h2 {
     padding: 0;
 }
 
-.times > h2 {
+.times {
+    background-color: rgb(14, 65, 78);
+}
+
+.times h2 {
+    font-family: "Fira Sans", sans-serif;
     text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
     color: rgb(207, 19, 19);
-    font-weight: bold;
-    font-size: 150%;
 }
 
 /*--------------------------------------End of Times*/
@@ -460,8 +481,9 @@ h2 {
 }
 
 .btn:hover {
-    -webkit-box-shadow: 8px 5px 15px 9px rgba(0, 0, 0, 0.58);
-    box-shadow: 8px 5px 15px 9px rgba(0, 0, 0, 0.58);
+    font-size: 20px;
+    -webkit-box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.58);
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.58);
 }
 
 /*--------------------------------------End of Contact Us*/
@@ -477,10 +499,6 @@ footer {
     right: 0;
     max-height: 240px;
     margin-bottom: -20px;
-}
-
-footer > span {
-    color: rgb(20, 176, 187);
 }
 
 footer > a {
@@ -571,7 +589,7 @@ footer > p {
     }
 
     .cocktails-list-img {
-        flex-basis: 100%;
+        flex-basis: 65%;
     }
 
     .cocktails-list-img img {
@@ -594,7 +612,7 @@ footer > p {
     }
 
     .beers-list-img {
-        flex-basis: 100%;
+        flex-basis: 65%;
     }
 
     .beers-list-img img {
@@ -617,7 +635,7 @@ footer > p {
     }
 
     .soft-drinks-list-img {
-        flex-basis: 100%;
+        flex-basis: 65%;
     }
 
     .soft-drinks-list-img img {
@@ -674,10 +692,6 @@ footer > p {
         bottom: 0;
         right: 0;
         max-height: 240px;
-    }
-
-    footer > span {
-        color: rgb(20, 176, 187);
     }
 
     footer > a {
@@ -788,7 +802,7 @@ footer > p {
         height: 100vh;
         animation: background-colors 5s ease-in-out infinite;
         margin-top: 4rem;
-        margin-bottom: 7rem;
+        margin-bottom: 10rem;
     }
 
     #contact-us {
@@ -839,3 +853,4 @@ footer > p {
 }
 
 /*--------------------------------------End of Media Query*/
+
