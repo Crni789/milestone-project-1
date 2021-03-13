@@ -733,6 +733,12 @@ footer > p {
         padding: 0;
     }
 
+    .drinks {
+    margin-top: 20px;
+    padding: 15px;
+    }
+
+
     .cocktails {
         flex-basis: 100%;
     }
@@ -852,5 +858,15 @@ footer > p {
     }
 }
 
-/*--------------------------------------End of Media Query*/
 
+@media screen and (max-width: 330px) {
+    .drinks {
+        margin-top: 200px;
+    }
+    #contact-form {
+        padding-bottom: 6rem;
+    }
+}
+
+
+/*--------------------------------------End of Media Query*/
