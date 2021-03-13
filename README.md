@@ -96,14 +96,14 @@ For this project I used the following technologies:
 
 ## Deployment
 
-## [Github pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+## Github pages
 1. Go to Github 
 2. Click on "Settings"
 3. Scroll until section "GitHub Pages"
 4. Select on the "source" dropdown menu the "master branch" option
 5. A success message (in green) appears and it shows you the link for your live preview page in Github Pages.
 
-## [Local deployment](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+## Local deployment
 1. Go to repository repository named "milestone-project-1"
 2. Click on the button "code"
 3. Select the "HTTPS" option.
